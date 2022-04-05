@@ -3,18 +3,41 @@
 }
 
 /* brand color palette */
-:root {
---primary: images url(Images\michael-dziedzic-qDG7XKJLKbs-unsplash.jpg);
---secondary
+:root 
 
-}
+  .first-color { 
+    background: #ffcbcb; 
+  }
+    
+  .second-color { 
+    background: #ffb5b5; 
+  }
+  
+  .third-color { 
+    background: #407088; 
+  }
+  
+  .fourth-color { 
+    background: #580688; 
+
+  
+  --primary: #ffcbcb;
+  --secondary: #ffb5b5;
+  --tertiary: #407088;
+  --fourth: #580688; 
+  --dark: rgba(28, 29, 33, 1);
+  --light: rgba(238, 238, 247, 1);
+  }
+
+ 
+  
 
 body {
   margin: 0;
   padding: 0;
-  fmailyfo
-  color: 
-  background-image: url(url(Images\michael-dziedzic-qDG7XKJLKbs-unsplash.jpg););
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  color: var(--primary);
+  background-color: var(--light);
   line-height: 1.5;
 }
 
@@ -82,11 +105,11 @@ nav a:last-child {
 main {
   margin-top: 20px;
   margin-bottom: 45px;
+  
 }
 
-.hero-banner {
-  background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+.main-banner {
+  background-image: url("../images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -99,12 +122,12 @@ main {
   text-align: right;
 }
 
-.Dope-banner div {
+.main-banner div {
   flex: 0 0 90%;
 }
 
-.Dope-banner h2 {
-  background-color: var(--secondary);
+.main-banner h2 {
+  background-color:lightseagreen;
   color: var(--tertiary);
   margin: 0;
   padding: 5px 10px;
@@ -170,7 +193,10 @@ main {
   font-size: 0.9rem;
 }
 
-/* feature first website portfolio item */
+/* all my projects images and portfolio item */
+
+/*targeting the first element quickly inside another element*/
+/* by calling :first-child in the "flex-item" same for hover*/
 
 .flex-item:first-child {
     min-height: 400px;
@@ -184,6 +210,7 @@ main {
 .flex-item div {
   background-color: var(--secondary);
   padding: 8px 10px;
+  border-radius: 8px;
 }
 
 .flex-item h3 {
@@ -215,42 +242,44 @@ main {
 
 .contact address a:hover {
   background-size: 100% 88%;
-  color:var mu
+  color: var(--secondary);
 }
 
-/* My pojects images */
-
-.BI-Website {
-  background-image: url("");
+/* my portfolio project images here */
+.ai-websites {
+  background-image: url("../images/alex-knight-2EJCSULRwC8-unsplash.jpg");
+  border-radius: 8px;
 }
 
-.JS-CSS-Project {
-  background-image: url("");
+.bi-website {
+  background-image: url("../images/tai-bui-BjcyfRxpdfQ-unsplash.jpg");
+  border-radius: 8px;
 }
 
-.Mobile-Website{
-  background-image: url("");
-}
-
-
-.JCH-MES-Website-Project{
-  background-image:url("https://github.com/kiira2125/LK-Protfolio/blob/3de5b35d2039d9ffdfd913bdcefb5611e790d9f4/Images/maxim-hopman-IayKLkmz6g0-unsplash.jpg");
+.mobile-project {
+  background-image: url("../images/tai-bui-Jd-BdaYn1RE-unsplash.jpg");
+  border-radius: 8px;
 }
 
 
-.Website-AI-Project {
-  background-image: url("");
+.jch-porject {
+  background-image: url("../images/tai-bui-UEcMwycMYg8-unsplash.jpg");
+  border-radius: 8px;
 }
 
-/* And the top ends my images for each project*/
+.run-code {
+  background-image: url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+  border-radius: 8px;
+}
 
-/* I need to know do more design work on my webpage*/
+/* adding my media query for my webpage here*/
 
 @media screen and (max-width: 980px) {
   header {
     padding: 0 0 10px 0;
     justify-content: center;
     text-align: center;
+    flex: content;
   }
 
   header h1 {
@@ -289,7 +318,7 @@ main {
     min-height: 150px;
   }
 
-  .Dope-banner {
+  .main-banner {
     justify-content: center;
     text-align: center;
   }
