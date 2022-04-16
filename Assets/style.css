@@ -10,7 +10,7 @@
   }
     
   .second-color { 
-    background: #ffb5b5; 
+    background: #c47070; 
   }
   
   .third-color { 
@@ -18,13 +18,13 @@
   }
   
   .fourth-color { 
-    background: #580688; 
+    background: #745189; 
 
   
   --primary: #ffcbcb;
   --secondary: #ffb5b5;
   --tertiary: #407088;
-  --fourth: #580688; 
+  --fourth: #745189; 
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
   }
@@ -34,11 +34,16 @@
 
 body {
   margin: 0;
-  padding: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  padding: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--primary);
-  background-color: var(--light);
-  line-height: 1.5;
+  background-image: url("../images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
+  line-height: 1.2;
+  font-size: 27px;
+  font-style: italic;
+  font-style: bold;
+  
+
 }
 
 h1,
@@ -62,16 +67,19 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  box-shadow: 0 5px 35px rgba(104, 235, 239, 0.4);
 }
 
 header h1 {
-  color: var(--tertiary);
-  background-color: var(--secondary);
+  color:rgb(255, 255, 254);
+  background-image: url("../images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
   padding: 5px 1% 5px 6%;
   margin: 0;
-  font-size: 4vw;
+  font-size: 40px;
   line-height: 1;
+  font-style: italic;
+  font-style: italic;
+  
 }
 
 nav {
@@ -82,15 +90,17 @@ nav {
 
 nav a {
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 1px 5px;
   color: var(--secondary);
-  margin-right: 10px;
+  margin-right: 8px;
   background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: bottom;
   transition: all 0.25s ease-in;
-  font-size: 1.4rem;
+  font-size: 15px;
+  flex: auto;
+  
 }
 
 nav a:hover {
@@ -98,8 +108,11 @@ nav a:hover {
   color: var(--primary);
 }
 
-nav a:last-child {
+nav a {
   margin-right: 0;
+  font-size: 25px;
+  color:rgb(255, 255, 254);
+  font-style:bold;
 }
 
 main {
@@ -109,31 +122,36 @@ main {
 }
 
 .main-banner {
-  background-image: url("../images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: rgb(126, 131, 137);
+  background-image: url("../images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg"), url("../images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
-  min-height: 30vh;
+  min-height: 60vh;
   color: var(--light);
   padding: 2% 6%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
+  flex: content;
 }
+
 
 .main-banner div {
   flex: 0 0 90%;
 }
 
 .main-banner h2 {
-  background-color:lightseagreen;
+  background-image: url("../images/miguel-delmar-W4qWlYbYqI4-unsplash.jpg");
   color: var(--tertiary);
   margin: 0;
   padding: 5px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
   display: inline;
+  font-style: italic, bold;
+  color:orangered
 }
 
 .page-wrapper {
@@ -144,6 +162,7 @@ main {
 
 .page-section {
   margin: 25px 0;
+  text-size-adjust: 80vh;
   padding: 10px 0;
   display: flex;
   flex-direction: row;
@@ -154,11 +173,16 @@ main {
 
 .page-section > h2 {
   flex: 0 0 20%;
-  text-align: right;
-  padding-right: 15px;
-  border-right: 4px solid var(--primary);
-  font-size: 4vw;
-  line-height: 1.1;
+  text-align: left;
+  padding-right: 1px;
+  border-right: 3px solid var(--primary);
+  font-size: 40px;
+  line-height: 1;
+  color:rgb(255, 255, 254);
+  background-image: url("../images/miguel-delmar-W4qWlYbYqI4-unsplash.jpg");
+ 
+  
+  
 }
 
 .page-section > div {
@@ -167,6 +191,8 @@ main {
 
 .page-section p {
   margin-bottom: 20px;
+  font-size: 25px;
+  color:rgb(255, 255, 254);
 }
 
 .flex-container {
@@ -179,18 +205,18 @@ main {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
   color: var(--tertiary);
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 350px;
+  max-height: 350px;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
-  padding: 0 0 20px 0;
+  padding: 0 1 20px 0;
   margin: 0.5em;
   text-decoration: none;
   background-blend-mode: soft-light;
-  background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
+  background-size: cover;
 }
 
 /* all my projects images and portfolio item */
@@ -199,7 +225,7 @@ main {
 /* by calling :first-child in the "flex-item" same for hover*/
 
 .flex-item:first-child {
-    min-height: 400px;
+    min-height: 600px;
     flex-basis: 100%;
 }
 
@@ -208,9 +234,11 @@ main {
 }
 
 .flex-item div {
-  background-color: var(--secondary);
+  color: orangered;
   padding: 8px 10px;
   border-radius: 8px;
+  font-size: 25px;
+ 
 }
 
 .flex-item h3 {
@@ -227,10 +255,11 @@ main {
 
 .contact address a {
   color: var(--tertiary);
-  padding: 5px;
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-style: normal;
+  padding: 2px;
+  text-decoration: underline;
+  font-size: 25px;
+  font-style: bold;
+  font-style: italic;
   background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
@@ -238,6 +267,8 @@ main {
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
   display: inline-block;
+  color:rgb(255, 255, 254);
+  font-size: 20px;
 }
 
 .contact address a:hover {
@@ -286,7 +317,7 @@ main {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    font-size: 10vw;
+    font-size: 18px;
   }
 
   header nav {
@@ -304,18 +335,18 @@ main {
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align: left;
-    font-size: 7vw;
+    font-size: 17px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .flex-item,
   .flex-item:first-child {
     flex-basis: 100%;
   }
 
   .flex-item:first-child {
-    min-height: 150px;
+    min-height: 200px;
   }
 
   .main-banner {
@@ -324,7 +355,8 @@ main {
   }
 
   .contact address {
-    flex-direction: column;
+    flex-direction:row;
     align-items: flex-start;
+    font-size: 3vw;
   }
 }
