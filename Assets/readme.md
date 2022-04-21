@@ -4,6 +4,7 @@
 
 * Going to apply my ability of CSS and show how to use Flex and other css function.
 
-*The goal is to make sure all links and elements and ID are well define in HTML and Css and all images.
+* The goal is to make sure all links and elements and ID are well define in HTML and Css and all images.
 
+* " https://kiira2125.github.io/HW2-LK/"
 ![screenshot](./PortfolioShot.JPG)
