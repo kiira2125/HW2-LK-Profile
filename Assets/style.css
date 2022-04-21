@@ -37,7 +37,7 @@ body {
   padding: 1;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--primary);
-  background-image: url("/Images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
+  background-image: url("../Images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
   line-height: 1.2;
   font-size: 27px;
   font-style: italic;
@@ -72,7 +72,7 @@ header {
 
 header h1 {
   color:rgb(255, 255, 254);
-  background-image: url("/Images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
+  background-image: url("../Images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
   padding: 5px 1% 5px 6%;
   margin: 0;
   font-size: 40px;
@@ -143,7 +143,7 @@ main {
 }
 
 .main-banner h2 {
-  background-image: url("/Images/miguel-delmar-W4qWlYbYqI4-unsplash.jpg");
+  background-image: url("../Images/miguel-delmar-W4qWlYbYqI4-unsplash.jpg");
   color: var(--tertiary);
   margin: 0;
   padding: 5px 10px;
@@ -179,7 +179,7 @@ main {
   font-size: 40px;
   line-height: 1;
   color:rgb(255, 255, 254);
-  background-image: url("/Images/miguel-delmar-W4qWlYbYqI4-unsplash.jpg");
+  background-image: url("../Images/miguel-delmar-W4qWlYbYqI4-unsplash.jpg");
  
   
   
@@ -278,28 +278,28 @@ main {
 
 /* my portfolio project images here */
 .ai-websites {
-  background-image: url("/Images/alex-knight-2EJCSULRwC8-unsplash.jpg");
+  background-image: url("../Images/alex-knight-2EJCSULRwC8-unsplash.jpg");
   border-radius: 8px;
 }
 
 .bi-website {
-  background-image: url("/Images/tai-bui-BjcyfRxpdfQ-unsplash.jpg");
+  background-image: url("../Images/tai-bui-BjcyfRxpdfQ-unsplash.jpg");
   border-radius: 8px;
 }
 
 .mobile-project {
-  background-image: url("/Images/tai-bui-Jd-BdaYn1RE-unsplash.jpg");
+  background-image: url("../Images/tai-bui-Jd-BdaYn1RE-unsplash.jpg");
   border-radius: 8px;
 }
 
 
 .jch-porject {
-  background-image: url("/Images/tai-bui-UEcMwycMYg8-unsplash.jpg");
+  background-image: url("../Images/tai-bui-UEcMwycMYg8-unsplash.jpg");
   border-radius: 8px;
 }
 
 .run-code {
-  background-image: url("/Images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+  background-image: url("../Images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
   border-radius: 8px;
 }
 
