@@ -123,7 +123,7 @@ main {
 
 .main-banner {
   background: rgb(126, 131, 137);
-  background-image: url("/Images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg"), url("../images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg");
+  background-image: url("../Images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg"), url("../images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
