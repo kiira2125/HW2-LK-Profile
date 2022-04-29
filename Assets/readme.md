@@ -6,5 +6,5 @@
 
 * The goal is to make sure all links and elements and ID are well define in HTML and Css and all images.
 
-* " https://kiira2125.github.io/HW2-LK/"
+* "https://kiira2125.github.io/HW2-LK/"
 ![screenshot](./PortfolioShot.JPG)
